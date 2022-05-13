@@ -1,0 +1,83 @@
+header {
+	background: #BBBBBB;
+	padding: 30px 0;
+}
+
+/* tag principal com fontes utilizadas Google Fonts e cor de fundo */
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo-cabecalho{
+    width: 20%;
+    position: relative;
+}
+
+nav {
+	position: absolute;
+    top: -35px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* classe itens dos produtos */
+.itens{
+    font-size: 20px;
+}
+
+/* tag lista de produtos (Unorder List) */
+ul{
+    display: inline-block;
+    vertical-align: 60px;
+    padding: 50px;
+}
+
+
+/* rodapé da página */
+footer{
+    text-align: center;
+	background: url("fundo-rodape.jpg");
+    padding: 40px 0;
+}
+
+.logo-rodape{
+    width: 5%;
+    text-align: center;
+}
+
+.copyright {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+	color: #000000;
+	font-size: 13px;
+	margin: 15px 0 0;
+}
