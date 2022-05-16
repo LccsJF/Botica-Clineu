@@ -15,13 +15,12 @@ body{
 }
 
 .logo-cabecalho{
-    width: 20%;
     position: relative;
 }
 
 nav {
 	position: absolute;
-    top: -35px;
+    top: 0;
 	right: 0;
 }
 
@@ -69,7 +68,6 @@ footer{
 }
 
 .logo-rodape{
-    width: 5%;
     text-align: center;
 }
 
