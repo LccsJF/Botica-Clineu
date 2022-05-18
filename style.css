@@ -1,39 +1,64 @@
-/* tag principal com fontes utilizadas Google Fonts e cor de fundo */
+/* tag que define a cor, tamanho e conteúdo do cabeçalho*/
+header{
+	background: #87CEEB;
+	padding: 30px 0;
+}
+
+/* caixa que contém o cabeçalho: logo e menus*/
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* tag navegação com as configurações do menu*/
+nav{
+	position: absolute;
+    top: 30px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #0B3C5D;
+    font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #D9B310;
+	text-decoration: underline;
+}
+
+/* fonte utilizada no documento */
 body{
-    font-family: 'Lavishly Yours', cursive;
-    background-color: bisque;
+    font-family: 'Dosis', sans-serif;
+}
+
+/* tag do conteúdo principal */
+main{
+	width: auto;
+	margin: 0 auto;
 }
 
 /* div imagem principal */
-#banner {
-	width: 30%;
+#banner{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -8%;
-}
-
-.logo-cabecalho{
-    width: 12%;
-    position: relative;
-    top: 130px;
-    margin-left: 210px;
-}
-
-/* div título cabeçalho */
-#titulo-principal{
-    position: relative;
-    font-size: 70px;
-    padding: 15px;
-    top: 150px;
-    margin-left: 4%;
-    color: brown;
+    margin: auto;
+    padding-top: 80px;
 }
 
 /* classe texto principal */
 .principal{
     padding: 30px;
-    color: brown;
+    color: #0B3C5D;
 }
 
 /* classe sub-título corpo do texto */
@@ -41,13 +66,19 @@ body{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* tag parágrafo padrão*/
 p{
     text-align: center;
-    font-size: 35px;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+em{
+    font-style: italic;
 }
 
 /* div missão */
@@ -55,74 +86,70 @@ p{
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-size: 50px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* classe texto missão */
 .texto-missao{
-    background-color: rgb(150, 239, 255);
-    padding: 0px, 5px;     
+    width: auto;
 }
-
-
-/* classe titulo produtos */
-.titulo-botica{
-    text-align: left;
-    margin-left: 220px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 50px;
-}
-
-/*em strong{
-    background-color: rgb(150, 239, 255);
-}*/
 
 /* classe produtos */
 .produtos{
-    background-color: beige;
-    padding: 10px;
-    color: brown;
+    background-color: #D9B310;
+    padding: 20px;
+    color: #0B3C5D;
 } 
 
-/* classe itens dos produtos */
-.itens{
-    font-style: italic;
-    font-size: 35px;
+/* classe titulo produtos */
+.titulo-botica{
+    margin-left: 387px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
-/* tag lista de produtos (Unorder List) */
-ul{
+/* classe itens dos produtos li (List Itens)*/
+.itens{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* tag lista de produtos ul (Unorder List) */
+.produtos-itens{
     display: inline-block;
-    vertical-align: 60px;
-    padding: 50px;
+	vertical-align: top;
+    padding-top: 10px;
+    padding-left: 100px;
+    width: 15%;
+    line-height: 250%;
 }
 
 /* imagem do corpo produtos */
 .botica{
-    width: 20%;
+    padding-bottom: 20px;
 }
 
 /* rodapé da página */
-footer {
+footer{
+	text-align: center;
 	background: url("fundo-rodape.jpg");
 	padding: 30px 0;
     display: block;
 }
 
 .logo-rodape{
-    width: 5%;
     display: block;
-    margin-left: 910px;
-    margin-top: 15px;
+    margin: auto;
 }
 
-.copyright {
-    text-align: center;
-    font-family: 'Montserrat', sans-serif;
+.copyright{
+    font-family: 'Dosis', sans-serif;
     font-style: normal;
     font-weight: 600;
 	color: #000000;
-	font-size: 13px;
-	margin: 15px;
+	font-size: 16px;
+	margin: 20px 0 0;
 }
