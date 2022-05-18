@@ -1,2 +1,2 @@
 # Botica-Clineu
-# Arquivos HTML e CSS em construção!
+# Arquivos HTML e CSS completos!
