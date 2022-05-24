@@ -77,7 +77,8 @@ p{
     line-height: 150%;
 }
 
-em{
+span{
+    font-weight: bold;
     font-style: italic;
 }
 
