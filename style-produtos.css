@@ -1,0 +1,134 @@
+/* tag que define a cor, tamanho e conteúdo do cabeçalho*/
+header {
+	background: #87CEEB;
+	padding: 30px 0;
+}
+
+/* tag principal com fontes utilizadas Google Fonts e cor de fundo */
+body{
+    font-family: 'Dosis', sans-serif;
+	color: #D9B310;	
+}
+
+/* caixa cabeçalho: logo e menus*/
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo-cabecalho{
+    position: relative;
+}
+
+/* tag navegação com as configurações do menu*/
+nav {
+	position: absolute;
+    top: 30px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #0B3C5D;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #D9B310;
+	text-decoration: underline;
+}
+
+/* tag do conteúdo principal: produtos*/
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* tag lista de produtos (Unorder List) */
+.produtos{
+	width: 940px;
+	margin: 0 auto;
+	padding: 40px 0;
+}
+
+/* tag com as configurações da Lista de Itens*/
+.produtos li{
+	display: inline-block;
+	text-align: center;
+	width: 20%;
+	vertical-align: top;
+	margin: 0 1%;
+	padding: 40px 10px;
+	box-sizing: content-box;
+	border: 2px solid #0B3C5D;
+	border-radius: 15px;
+}
+
+/* tag hover (apontar) utilizada quando passar o mouse sobre o link*/
+.produtos li:hover {
+	border-color: #328CC1;
+}
+
+/* tag utilizada mudar o estado do link quando clicar com o mouse*/
+.produtos li:active {
+	border-color: #FF4500;	
+}
+
+/* tag para aumentar o tamanho do título quando passar o mouse*/
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+/* tag do título produto*/
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+
+/* tag do subtítulo produto*/
+.tipo{
+	font-size: 22px;
+	font-weight: bold;
+	margin: 30px 0;
+}
+
+/* tag com a descrição produto*/
+.produto-descricao {
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 25px;
+	padding: 5px 0;
+	margin: 10px 0;
+}
+
+/* rodapé da página */
+footer{
+	text-align: center;
+	background: url("fundo-rodape.jpg");
+	padding: 30px 0;
+    display: block;
+}
+
+.logo-rodape{
+    display: block;
+    margin: auto;
+}
+
+.copyright{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+	color: #000000;
+	font-size: 16px;
+	margin: 20px 0 0;
+}

@@ -1,2 +1,8 @@
-# Botica-Clineu
-Site criado durante o curso HTML5/CSS3 na Alura
+# Botica Clineu Silva :department_store:
+
+## **Projeto** ##
+
+​	Trabalho desenvolvido como exercício durante meus estudos em HTML e CSS na plataforma ALURA. Precisei pausar para começar o bootcamp do Santander Fullstack Developer. Quando terminar, continuarei meus estudos na ALURA e terminarei esse projeto.
+
+
+

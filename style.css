@@ -1,0 +1,156 @@
+/* tag que define a cor, tamanho e conteúdo do cabeçalho*/
+header{
+	background: #87CEEB;
+	padding: 30px 0;
+}
+
+/* caixa que contém o cabeçalho: logo e menus*/
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+/* tag navegação com as configurações do menu*/
+nav{
+	position: absolute;
+    top: 30px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #0B3C5D;
+    font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #D9B310;
+	text-decoration: underline;
+}
+
+/* fonte utilizada no documento */
+body{
+    font-family: 'Dosis', sans-serif;
+}
+
+/* tag do conteúdo principal */
+main{
+	width: auto;
+	margin: 0 auto;
+}
+
+/* div imagem principal */
+#banner{
+    display: block;
+    margin: auto;
+    padding-top: 80px;
+}
+
+/* classe texto principal */
+.principal{
+    padding: 30px;
+    color: #0B3C5D;
+}
+
+/* classe sub-título corpo do texto */
+.sub-titulo-centralizado{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* tag parágrafo padrão*/
+p{
+    text-align: center;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* div missão */
+#missao{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* classe texto missão */
+.texto-missao{
+    width: auto;
+}
+
+/* classe produtos */
+.produtos{
+    background-color: #D9B310;
+    padding: 20px;
+    color: #0B3C5D;
+} 
+
+/* classe titulo produtos */
+.titulo-botica{
+    margin-left: 387px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* classe itens dos produtos li (List Itens)*/
+.itens{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* tag lista de produtos ul (Unorder List) */
+.produtos-itens{
+    display: inline-block;
+	vertical-align: top;
+    padding-top: 10px;
+    padding-left: 100px;
+    width: 15%;
+    line-height: 250%;
+}
+
+/* imagem do corpo produtos */
+.botica{
+    padding-bottom: 20px;
+}
+
+/* rodapé da página */
+footer{
+	text-align: center;
+	background: url("fundo-rodape.jpg");
+	padding: 30px 0;
+    display: block;
+}
+
+.logo-rodape{
+    display: block;
+    margin: auto;
+}
+
+.copyright{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+	color: #000000;
+	font-size: 16px;
+	margin: 20px 0 0;
+}

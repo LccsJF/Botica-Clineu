@@ -1,0 +1,129 @@
+/* tag que define a cor, tamanho e conteúdo do cabeçalho*/
+header{
+	background: #87CEEB;
+	padding: 30px 0;
+}
+
+/* tag principal com fontes utilizadas Google Fonts e cor de fundo */
+body{
+    font-family: 'Dosis', sans-serif;
+	color: #0B3C5D;	
+}
+
+/* caixa cabeçalho: logo e menus*/
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo-cabecalho{
+    position: relative;
+}
+
+/* tag navegação com as configurações do menu*/
+nav{
+	position: absolute;
+    top: 30px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 20px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color: #0B3C5D;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #D9B310;
+	text-decoration: underline;
+}
+
+/* tag do conteúdo principal*/
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+
+form{
+	margin: 40px 0;
+}
+
+form label, form legend{
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.enviar{
+    width:40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+/* rodapé da página */
+footer{
+	text-align: center;
+	background: url("fundo-rodape.jpg");
+	padding: 30px 0;
+    display: block;
+}
+
+.logo-rodape{
+    display: block;
+    margin: auto;
+}
+
+.copyright{
+    font-family: 'Dosis', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+	color: #000000;
+	font-size: 16px;
+	margin: 20px 0 0;
+}
